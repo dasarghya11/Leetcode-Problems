@@ -83,6 +83,12 @@ class Solution:
         return [nums[((i + nums[i]) % n + n) % n] for i in range(n)]
         
 
+Complexity Analysis
+Let n be the length of the array.
+Time complexity: O(n).
+We need to traverse the entire array once and calculate the value at each position.
 
+Space complexity: O(n).
+Additional space is used to store the resulting array.
 
 
